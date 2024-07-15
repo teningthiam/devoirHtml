@@ -1,0 +1,126 @@
+:root {
+    --main-color: #050301;
+    --black: #19191A;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+.page-title{
+    font-size: 36px;
+}
+
+.container{
+    /*width: 80%; */
+    max-width: calc(1200px - 20px);
+    margin: auto;
+}
+
+
+.img-partenair {
+    display: flex;
+
+}
+
+.img-partenair img {
+    height: 35px;
+    list-style: none;
+   
+}
+
+ * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.first  .container{
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.first p {
+    padding-left: 13px;
+    text-transform: uppercase;
+}
+
+.first h1 {
+    font-family: 'poppins',sans-serif;
+    font-weight: 600;
+}
+
+.img-partenair img {
+    height: 35px;
+}
+
+.cover-first img {
+    height: 400px;
+    width: 100%;
+}
+
+.second .container {
+    padding: 100px 0;
+}
+
+.second .info {
+    text-align: center;
+}
+.icon-filiere {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icon-filiere a {
+    color: rgb(112, 12, 12);
+}
+
+.trois {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+    background: url('../image/Image\ collée.png') fixed;
+    background-size: cover;
+    background-position:fixed ;
+    height: 50vh;
+}
+
+.trois h2 {
+    color: white;
+}
+
+span {
+    color: Dark bisque;
+    opacity: 40%;
+}
+
+.postuler {
+    padding: 16px 24px;
+    border-radius: 10px;
+    border: none;
+}
+
+#paragph-color {
+    color: brown;
+} 
+
+
